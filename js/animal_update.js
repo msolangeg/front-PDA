@@ -13,7 +13,7 @@ const { createApp } = Vue
         description:"",
         photo:"",
         // url:'http://127.0.0.1:5000/pets/'+id,  //url de 
-        url:`http://solange.pythonanywhere.com/pets/${id}`,
+        url:`https://solange.pythonanywhere.com/pets/${id}`,
        }  
     },
     methods: {

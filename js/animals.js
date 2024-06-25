@@ -5,7 +5,8 @@ const { createApp } = Vue
         pets:[],
         //url:'http://localhost:5000/pets', 
    // si el backend esta corriendo local  usar localhost 5000(si no lo subieron a pythonanywhere)
-        url:'http://127.0.0.1:5000/pets',   // si ya lo subieron a pythonanywhere
+        // url:'http://127.0.0.1:5000/pets',   // si ya lo subieron a pythonanywhere
+        url:'http://solange.pythonanywhere.com/pets', //url de la db de hosting
         error:false,
         cargando:true,
 
